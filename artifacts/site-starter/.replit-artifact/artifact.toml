@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "React + Vite Starter"
+description = "A minimal React and Vite project scaffold with organized folders and a working development server, ready for future website development."
+version = "1.0.0"
+id = "artifacts/site-starter"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20667
+
+[services.development]
+run = "pnpm --filter @workspace/site-starter run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/site-starter", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/site-starter/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20667"
+BASE_PATH = "/"
