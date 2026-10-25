@@ -170,7 +170,6 @@
 .contact-actions .button { background: #f6f2e4; color: var(--green); }
 .contact-button-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .contact-button-row .button { min-height: 43px; padding-inline: 16px; font-size: 11px; }
-.contact-button-row .button:disabled { cursor: not-allowed; opacity: .78; }
 .contact-actions > span { max-width: 200px; color: #b4c0b0; font-size: 9px; line-height: 1.6; }
 .contact-decoration { position: absolute; width: 320px; height: 320px; right: 120px; top: -10px; border: 1px solid #ffffff18; border-radius: 50%; }
 .contact-decoration::before, .contact-decoration::after { position: absolute; content: ''; border: 1px solid #ffffff18; border-radius: 50%; inset: 27px; }
