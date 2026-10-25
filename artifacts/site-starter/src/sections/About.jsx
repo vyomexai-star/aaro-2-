@@ -1,0 +1,6 @@
+export default function About() {
+  return <section className="about section-space" id="about"><div className="wrap about-grid">
+    <div className="about-side"><span className="eyebrow">A better everyday, by design</span><div className="about-orbit"><span className="orbit-center">aaro<br />farms</span><span className="orbit-text">GOOD FOOD · REAL LIFE · GOOD FOOD · REAL LIFE ·</span></div><span className="about-caption">Rooted in a simple idea.<br />Ready for the way we live now.</span></div>
+    <div className="about-copy"><span className="section-kicker">A note from Aaro</span><h2 className="section-heading">Eating well should feel like <em>part of life.</em></h2><p className="section-copy">The days are full. The meals in between still matter. Aaro Farms is here to make wholesome food feel a little more within reach — with thoughtful ingredients, considered recipes and convenience that fits the pace of modern life.</p><p className="section-copy">We believe better everyday choices begin with food that feels good to bring to the table. That belief is our starting point, and the standard we hope to keep growing into.</p><a className="text-link" href="#philosophy">The way we see it <span aria-hidden="true">↗</span></a></div>
+  </div></section>;
+}

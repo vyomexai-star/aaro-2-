@@ -1,7 +1,8 @@
-# React + Vite Starter
+# Aaro Farms
 
-A minimal JavaScript starter built with React and Vite. Website sections have
-not been added yet.
+A responsive, single-page brand website for Aaro Farms, built with React and
+Vite. Product details, testimonials, and contact methods are marked as
+placeholders until approved information is available.
 
 ## Development
 
